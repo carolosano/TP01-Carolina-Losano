@@ -1,0 +1,57 @@
+
+/* aca esta todo mezclado je */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+    height: 60px;
+    border-bottom: 0.1px solid black;
+    background: red;
+    color: white;
+  }
+
+.nav--item {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(222, 157, 157);
+    margin: 3px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.violeta{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    
+} 
